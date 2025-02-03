@@ -5,7 +5,7 @@ function App() {
   return (
     <main
       data-tauri-drag-region
-      className="bg-base text-primary dark:bg-primary dark:text-base select-none font-semibold w-screen h-screen flex flex-col py-4 cursor-default"
+      className="bg-base text-primary dark:bg-primary dark:text-base select-none font-semibold w-screen h-screen flex flex-col py-4 cursor-default rounded-xl"
     >
       <Header data-tauri-drag-region />
       <Content data-tauri-drag-region />
